@@ -1,0 +1,16 @@
+name       : yum-metadata-parser
+version    : 1.1.4
+release    : 2
+source     :
+    - http://yum.baseurl.org/download/yum-metadata-parser/yum-metadata-parser-1.1.4.tar.gz : f1560a284541feb720c3ae35b6b31f80c2be5cb9ca86b3a1ee9459846f821ada
+license    : GPL-2.0
+summary    : Yum Metadata Validation/sqlitecachec
+description: |
+    Yum Metadata Validation/sqlitecachec
+builddeps  :
+    - pkgconfig(glib-2.0)
+    - pkgconfig(sqlite3)
+build      : |
+    python setup.py build
+install    : |
+    python setup.py install --root=%installroot% --no-compile -O0
