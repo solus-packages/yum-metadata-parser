@@ -1,6 +1,6 @@
 name       : yum-metadata-parser
 version    : 1.1.4
-release    : 2
+release    : 3
 source     :
     - http://yum.baseurl.org/download/yum-metadata-parser/yum-metadata-parser-1.1.4.tar.gz : f1560a284541feb720c3ae35b6b31f80c2be5cb9ca86b3a1ee9459846f821ada
 license    : GPL-2.0
